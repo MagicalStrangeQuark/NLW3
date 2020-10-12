@@ -36,3 +36,27 @@ Repository containing the application created in the third edition of the <a hre
 ```bash
     npm install react-icons
 ```
+
+<h2 align="center">🔏 React Router DOM</h2>
+
+```bash
+    yarn add react-router-dom
+
+    yarn add @types/react-router-dom
+```
+
+```bash
+    npm install react-router-dom
+
+    npm install @types/react-router-dom
+```
+
+<h2 align="center">🔏 Leaflet</h2>
+
+```bash
+    yarn add leaflet react-leaflet
+```
+
+```bash
+    npm install leaflet react-leaflet
+```
