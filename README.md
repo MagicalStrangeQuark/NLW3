@@ -27,6 +27,68 @@ Repository containing the application created in the third edition of the <a hre
     npx create-react-app web --template typescript
 ```
 
+<h2 align="center">Typescript Installation</h2>
+
+```
+    sudo npm install -g typescript
+```
+
+<h2 align="center">Check the installation</h2>
+
+```
+    tsc --help
+```
+
+<h2 align="center">To compile our typescript code, located in index.ts, to javascript</h2>
+
+```typescript
+    interface User {
+        name: string,
+        age: number,
+        address: {
+            country: string,
+            state: string
+        }
+    }
+
+    function printUser(user: User) {
+        console.log(user);
+    }
+
+    printUser({
+        name: "Gabriela",
+        age: 29,
+        address: {
+            country: "Brazil",
+            state: "RS"
+        }
+    });
+```
+
+```javascript
+    function printUser(user) {
+        console.log(user);
+    }
+    printUser({
+        name: "Gabriela",
+        age: 29,
+        address: {
+            country: "Brazil",
+            state: "RS"
+        }
+    });
+```
+
+```
+    tsc index.ts
+```
+
+<h2 align="center">Run javascript script</h2>
+
+```
+    node index.js
+```
+
 <h2 align="center">🔏 Icons</h2>
 
 ```bash
