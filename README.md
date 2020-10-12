@@ -19,11 +19,20 @@ Repository containing the application created in the third edition of the <a hre
 
 <h2 align="center">🔏 Installing WEB Application</h2>
 
-```
+```bash
     yarn create react-app web --template typescript
 ```
-<h3 align="center">OR</h3>
 
-```
+```bash
     npx create-react-app web --template typescript
+```
+
+<h2 align="center">🔏 Icons</h2>
+
+```bash
+    yarn add react-icons
+```
+
+```bash
+    npm install react-icons
 ```
