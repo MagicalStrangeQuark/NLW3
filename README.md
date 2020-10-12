@@ -69,6 +69,7 @@ Repository containing the application created in the third edition of the <a hre
     function printUser(user) {
         console.log(user);
     }
+    
     printUser({
         name: "Gabriela",
         age: 29,
