@@ -56,11 +56,11 @@ Repository containing the application created in the third edition of the <a hre
 ```bash
     yarn add leaflet react-leaflet
 
-    yarn add @types/leaflet
+    yarn add @types/react-leaflet
 ```
 
 ```bash
     npm install leaflet react-leaflet
 
-    npm install @types/leaflet
+    npm install @types/react-leaflet
 ```
