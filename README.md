@@ -27,19 +27,19 @@ Repository containing the application created in the third edition of the <a hre
     npx create-react-app web --template typescript
 ```
 
-<h2 align="center">Typescript Installation</h2>
+<h2 align="center">🔏 Typescript Installation</h2>
 
 ```
     sudo npm install -g typescript
 ```
 
-<h2 align="center">Check the installation</h2>
+<h2 align="center">🔏 Check the installation</h2>
 
 ```
     tsc --help
 ```
 
-<h2 align="center">To compile our typescript code, located in index.ts, to javascript</h2>
+<h2 align="center">🔏 To compile our typescript code, located in index.ts, to javascript</h2>
 
 ```typescript
     interface User {
@@ -84,7 +84,7 @@ Repository containing the application created in the third edition of the <a hre
     tsc index.ts
 ```
 
-<h2 align="center">Run javascript script</h2>
+<h2 align="center">🔏 Run javascript script</h2>
 
 ```
     node index.js
@@ -128,7 +128,7 @@ Repository containing the application created in the third edition of the <a hre
     npm install @types/react-leaflet
 ```
 
-<h2 align="center">Server</h2>
+<h2 align="center">🔏 Server</h2>
 
 ```
     mkdir server
@@ -138,7 +138,7 @@ Repository containing the application created in the third edition of the <a hre
     yarn init -y
 ```
 
-<h3 align="center">Express</h3>
+<h3 align="center">🔏 Express</h3>
 
 ```
     yarn add express
@@ -158,19 +158,19 @@ Repository containing the application created in the third edition of the <a hre
     yarn ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts
 ```
 
-<h3 align="center">SQLite</h3>
+<h3 align="center">🔏 SQLite</h3>
 
 ```
     yarn add typeorm sqlite3
 ```
 
-<h3 align="center">Create Migrations</h3>
+<h3 align="center">🔏 Create Migrations</h3>
 
 ```
     yarn ts-node-dev ./node_modules/typeorm/cli.js migration:create -n create_orphanages_table
 ```
 
-<h3 align="center">Run Migrations</h3>
+<h3 align="center">🔏 Run Migrations</h3>
 
 ```
     yarn ts-node-dev ./node_modules/typeorm/cli.js migration:run
