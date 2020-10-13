@@ -29,13 +29,13 @@ Repository containing the application created in the third edition of the <a hre
 
 <h2 align="center">🔏 Typescript Installation</h2>
 
-```
+```bash
     sudo npm install -g typescript
 ```
 
 <h2 align="center">🔏 Check the installation</h2>
 
-```
+```bash
     tsc --help
 ```
 
@@ -80,13 +80,13 @@ Repository containing the application created in the third edition of the <a hre
     });
 ```
 
-```
+```bash
     tsc index.ts
 ```
 
 <h2 align="center">🔏 Run javascript script</h2>
 
-```
+```bash
     node index.js
 ```
 
@@ -130,7 +130,7 @@ Repository containing the application created in the third edition of the <a hre
 
 <h2 align="center">🔏 Server</h2>
 
-```
+```bash
     mkdir server
 
     cd server
@@ -140,13 +140,13 @@ Repository containing the application created in the third edition of the <a hre
 
 <h3 align="center">🔏 Express</h3>
 
-```
+```bash
     yarn add express
 
     yarn add @types/express
 ```
 
-```
+```bash
     yarn add typescript -D
 
     yarn tsc --init
@@ -154,24 +154,24 @@ Repository containing the application created in the third edition of the <a hre
     yarn add ts-node-dev -D
 ```
 
-```
+```bash
     yarn ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts
 ```
 
 <h3 align="center">🔏 SQLite</h3>
 
-```
+```bash
     yarn add typeorm sqlite3
 ```
 
 <h3 align="center">🔏 Create Migrations</h3>
 
-```
+```bash
     yarn ts-node-dev ./node_modules/typeorm/cli.js migration:create -n create_orphanages_table
 ```
 
 <h3 align="center">🔏 Run Migrations</h3>
 
-```
+```bash
     yarn ts-node-dev ./node_modules/typeorm/cli.js migration:run
 ```
