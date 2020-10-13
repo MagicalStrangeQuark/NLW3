@@ -164,8 +164,14 @@ Repository containing the application created in the third edition of the <a hre
     yarn add typeorm sqlite3
 ```
 
-<h3 align="center">Migrations</h3>
+<h3 align="center">Create Migrations</h3>
 
 ```
     yarn ts-node-dev ./node_modules/typeorm/cli.js migration:create -n create_orphanages_table
+```
+
+<h3 align="center">Run Migrations</h3>
+
+```
+    yarn ts-node-dev ./node_modules/typeorm/cli.js migration:run
 ```
