@@ -127,3 +127,39 @@ Repository containing the application created in the third edition of the <a hre
 
     npm install @types/react-leaflet
 ```
+
+<h2 align="center">Server</h2>
+
+```
+    mkdir server
+
+    cd server
+
+    yarn init -y
+```
+
+<h3 align="center">Express</h3>
+
+```
+    yarn add express
+
+    yarn add @types/express
+```
+
+```
+    yarn add typescript -D
+
+    yarn tsc --init
+
+    yarn add ts-node-dev -D
+```
+
+```
+    yarn ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts
+```
+
+<h3 align="center">SQLite</h3>
+
+```
+    yarn add typeorm sqlite3
+```
