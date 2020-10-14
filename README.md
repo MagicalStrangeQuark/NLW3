@@ -105,13 +105,13 @@ Repository containing the application created in the third edition of the <a hre
 ```bash
     yarn add react-router-dom
 
-    yarn add @types/react-router-dom
+    yarn add @types/react-router-dom -D
 ```
 
 ```bash
     npm install react-router-dom
 
-    npm install @types/react-router-dom
+    npm install @types/react-router-dom -D
 ```
 
 <h2 align="center">🔏 Leaflet</h2>
@@ -119,13 +119,13 @@ Repository containing the application created in the third edition of the <a hre
 ```bash
     yarn add leaflet react-leaflet
 
-    yarn add @types/react-leaflet
+    yarn add @types/react-leaflet -D
 ```
 
 ```bash
     npm install leaflet react-leaflet
 
-    npm install @types/react-leaflet
+    npm install @types/react-leaflet -D
 ```
 
 <h2 align="center">🔏 Server</h2>
@@ -143,7 +143,7 @@ Repository containing the application created in the third edition of the <a hre
 ```bash
     yarn add express
 
-    yarn add @types/express
+    yarn add @types/express -D
 ```
 
 ```bash
@@ -182,4 +182,12 @@ Repository containing the application created in the third edition of the <a hre
 
 ```bash
     yarn ts-node-dev ./node_modules/typeorm/cli.js migration:revert
+```
+
+<h2 align="center">Multer</h2>
+
+```bash
+    yarn add multer
+
+    yarn add @types/multer -D
 ```
