@@ -4,12 +4,8 @@ import orphanagesController from './controllers/OrphanagesController';
 
 const routes = Router();
 
-routes.get('/orphanages', async (request, response) => {
-    return orphanagesController.index(request, response);
-});
+routes.get('/orphanages', orphanagesController.index);
 
-routes.post('/orphanages', async (request, response) => {
-    return orphanagesController.store(request, response);
-});
+routes.post('/orphanages', orphanagesController.store);
 
 export default routes;
