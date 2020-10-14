@@ -168,6 +168,8 @@ Repository containing the application created in the third edition of the <a hre
 
 ```bash
     yarn ts-node-dev ./node_modules/typeorm/cli.js migration:create -n create_orphanages_table
+
+    yarn ts-node-dev ./node_modules/typeorm/cli.js migration:create -n create_images_table
 ```
 
 <h3 align="center">🔏 Run Migrations</h3>
