@@ -175,3 +175,9 @@ Repository containing the application created in the third edition of the <a hre
 ```bash
     yarn ts-node-dev ./node_modules/typeorm/cli.js migration:run
 ```
+
+<h3 align="center">🔏 Revert Migrations</h3>
+
+```bash
+    yarn ts-node-dev ./node_modules/typeorm/cli.js migration:revert
+```
