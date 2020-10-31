@@ -128,6 +128,44 @@ Repository containing the application created in the third edition of the <a hre
     npm install @types/react-leaflet -D
 ```
 
+<h2 align="center">🔏 Express Async Errors</h2>
+
+```bash
+    yarn add express-async-errors
+```
+
+```bash
+    npm install express-async-errors
+```
+
+<h2 align="center">🔏Yup</h2>
+
+```bash
+    yarn add yup
+
+    yarn add @types/yup -D
+```
+
+```bash
+    npm install yup
+
+    npm install @types/yup -D
+```
+
+<h2 align="center">🔏 Cors</h2>
+
+```bash
+    yarn add cors
+
+    yarn add @types/cors
+```
+
+```bash
+    npm install cors
+
+    npm install @types/cors
+```
+
 <h2 align="center">🔏 Server</h2>
 
 ```bash
